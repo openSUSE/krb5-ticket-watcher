@@ -3,19 +3,21 @@ msgstr ""
 "Project-Id-Version: autoinst.fi\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-26 14:36+0200\n"
-"PO-Revision-Date: 2003-09-22 13:26+0200\n"
-"Last-Translator: Ain Vagula <avagula@gmail.com>\n"
-"Language-Team: Estonian <et@li.org>\n"
+"PO-Revision-Date: 2019-11-03 12:53+0000\n"
+"Last-Translator: Jaanus Ojangu <jaanus.ojangu@gmail.com>\n"
+"Language-Team: Estonian <https://l10n.opensuse.org/projects/"
+"krb5-ticket-watcher/master/et/>\n"
 "Language: et\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: ../src/krb5ticketwatcher.cpp:1195
 #, qt-format
 msgid " for client %1"
-msgstr ""
+msgstr " -kliendile %1"
 
 #: ../build/ui_pwdialog.h:157 ../build/ui_kinitdialog.h:305
 #: ../build/ui_pwchangedialog.h:173
@@ -24,9 +26,8 @@ msgstr "&Loobu"
 
 # password dialog title
 #: ../src/krb5ticketwatcher.cpp:301
-#, fuzzy
 msgid "&Change Kerberos Password"
-msgstr "Parooli muutmine"
+msgstr "Kerberos parooli &muutmine"
 
 #: ../build/ui_mainwidget.h:140
 msgid "&Close"
@@ -34,48 +35,44 @@ msgstr "S&ulge"
 
 #: ../src/krb5ticketwatcher.cpp:306
 msgid "&Destroy Ticket"
-msgstr ""
+msgstr "&Pileti hävitamine"
 
 #: ../build/ui_kinitdialog.h:281
-#, fuzzy
 msgid "&Details..."
-msgstr "Üksikasjad..."
+msgstr "&Üksikasjad..."
 
 #: ../src/krb5ticketwatcher.cpp:291
 msgid "&New Ticket"
-msgstr ""
+msgstr "&Uus pilet"
 
 #: ../build/ui_pwdialog.h:155 ../build/ui_kinitdialog.h:307
 #: ../build/ui_pwchangedialog.h:175
-#, fuzzy
 msgid "&Ok"
-msgstr "Sobib"
+msgstr "&Sobib"
 
 #: ../src/krb5ticketwatcher.cpp:316
 msgid "&Quit"
 msgstr "&Välju"
 
 #: ../build/ui_mainwidget.h:138
-#, fuzzy
 msgid "&Refresh"
-msgstr "Värskenda"
+msgstr "&Värskenda"
 
 #: ../src/krb5ticketwatcher.cpp:296
 msgid "&Renew Ticket"
-msgstr ""
+msgstr "&Uuenda pilet"
 
 #: ../src/krb5ticketwatcher.cpp:1298 ../src/krb5ticketwatcher.cpp:1358
 msgid "(none)"
-msgstr ""
+msgstr "(ei ole)"
 
 #: ../build/ui_kinitdialog.h:279
 msgid "@"
-msgstr ""
+msgstr "@"
 
 #: ../src/krb5ticketwatcher.cpp:1313
-#, fuzzy
 msgid "Addresses"
-msgstr "Sinu aadress"
+msgstr "Aadressid"
 
 #: ../build/ui_pwdialog.h:158 ../build/ui_mainwidget.h:141
 #: ../build/ui_kinitdialog.h:306 ../build/ui_pwchangedialog.h:174
@@ -92,56 +89,49 @@ msgid "Alt+O"
 msgstr "Alt+O"
 
 #: ../build/ui_mainwidget.h:139
-#, fuzzy
 msgid "Alt+R"
-msgstr "Alt+Y"
+msgstr "Alt+R"
 
 #. Legend: Explain ticket flag "a"
 #: ../src/krb5ticketwatcher.cpp:258
 msgid "Anonymous"
-msgstr ""
+msgstr "Anonüümne"
 
 #: ../src/krb5ticketwatcher.cpp:1335
 #, qt-format
 msgid "Broken address (type %1 length %2)"
-msgstr ""
+msgstr "Katkine aadress (tüüp %1 pikkus %2)"
 
 # password dialog title
 #: ../build/ui_pwchangedialog.h:172
-#, fuzzy
 msgid "Change Kerberos Password"
-msgstr "Parooli muutmine"
+msgstr "Kerberos parooli muutmine"
 
 # password dialog title
 #: ../src/krb5ticketwatcher.cpp:303
-#, fuzzy
 msgid "Change the Kerberos Password"
-msgstr "Parooli muutmine"
+msgstr "Muuda Kerberos parooli"
 
 #: ../src/krb5ticketwatcher.cpp:860
-#, fuzzy, qt-format
+#, qt-format
 msgid "Change the password for principal <b>%1</b>"
-msgstr "<b>Kasutaja '%s' parooli muutmine</b>"
+msgstr "Printsipali parooli muutmine <b>%1</b>"
 
 #: ../src/krb5ticketwatcher.cpp:293
-#, fuzzy
 msgid "Create a new Ticket"
-msgstr "Loo uus profiil"
+msgstr "Loo uus pilet"
 
 #: ../src/krb5ticketwatcher.cpp:302
-#, fuzzy
 msgid "Ctrl+C"
-msgstr "Ctrl+P"
+msgstr "Ctrl+C"
 
 #: ../src/krb5ticketwatcher.cpp:307
-#, fuzzy
 msgid "Ctrl+D"
-msgstr "Ctrl+P"
+msgstr "Ctrl+D"
 
 #: ../src/krb5ticketwatcher.cpp:292
-#, fuzzy
 msgid "Ctrl+N"
-msgstr "Ctrl+P"
+msgstr "Ctrl+N"
 
 #: ../src/krb5ticketwatcher.cpp:317
 msgid "Ctrl+Q"
@@ -157,312 +147,286 @@ msgstr "Ctrl+S"
 
 #: ../src/krb5ticketwatcher.cpp:1404
 msgid "Day(s)"
-msgstr ""
+msgstr "Päev(i)"
 
 #: ../build/ui_mainwidget.h:130
 msgid "Default credential cache"
-msgstr ""
+msgstr "Vaikimisi volituste vahemälu"
 
 #: ../src/krb5ticketwatcher.cpp:1110
 #, qt-format
 msgid "Default principal: %3"
-msgstr ""
+msgstr "Vaikeroll: %3"
 
 #. title
 #: ../src/krb5ticketwatcher.cpp:356
 msgid "Destroy Kerberos Ticket Cache?"
-msgstr ""
+msgstr "Kas kaotada Kerberose piletite vahemälu?"
 
 #: ../src/krb5ticketwatcher.cpp:308
 msgid "Destroy the Ticket"
-msgstr ""
+msgstr "Kaota pilet"
 
 #. message text
 #: ../src/krb5ticketwatcher.cpp:358
-#, fuzzy
 msgid "Do you want to destroy the ticket cache?"
-msgstr "Soovid sa tõesti seda asukohta kasutada?"
+msgstr "Kas soovite piletite vahemälu hävitada?"
 
 #: ../build/ui_pwchangedialog.h:177
-#, fuzzy
 msgid "Enter new password:"
-msgstr "<Sisesta uus parool>"
+msgstr "Sisesta uus parool:"
 
 #. title
 #: ../src/krb5ticketwatcher.cpp:366
-#, fuzzy
 msgid "Error !"
-msgstr " Viga!"
+msgstr "Viga!"
 
 #: ../src/krb5ticketwatcher.cpp:1085
-#, fuzzy
 msgid "Error while setting cache flags"
-msgstr "Viga päringu töötlemisel."
+msgstr "Viga vahemälulippude seadistustes"
 
 #: ../src/krb5ticketwatcher.cpp:1238
 msgid "Expires"
-msgstr ""
+msgstr "Aegub"
 
 #. kdc unreachable, return
 #: ../src/krb5ticketwatcher.cpp:716 ../src/krb5ticketwatcher.cpp:828
 msgid "Failure"
-msgstr ""
+msgstr "Rike"
 
 #. Legend: Explain ticket flag "F"
 #: ../src/krb5ticketwatcher.cpp:232
 msgid "Forwardable"
-msgstr ""
+msgstr "Edastatav"
 
 #. Legend: Explain ticket flag "f"
 #: ../src/krb5ticketwatcher.cpp:234
 msgid "Forwarded"
-msgstr ""
+msgstr "Edastatud"
 
 #. Legend: Explain ticket flag "H"
 #: ../src/krb5ticketwatcher.cpp:250
 msgid "HW Auth"
-msgstr ""
+msgstr "HW autentimine"
 
 #: ../src/main.cpp:70
 msgid "I couldn't detect any system tray on this system."
-msgstr ""
+msgstr "Ma ei suutnud selle süsteemi ühtegi süsteemisalve tuvastada."
 
 #. Legend: Explain ticket flag "I"
 #: ../src/krb5ticketwatcher.cpp:248
-#, fuzzy
 msgid "Initial"
-msgstr "Lähtestamine"
+msgstr "Algne"
 
 #. Legend: Explain ticket flag "i"
 #: ../src/krb5ticketwatcher.cpp:244
-#, fuzzy
 msgid "Invalid"
-msgstr "Vigane KeyID."
+msgstr "Vigane"
 
 #. Invalid password, try again.
 #: ../src/krb5ticketwatcher.cpp:571
-#, fuzzy
 msgid "Invalid Password"
-msgstr "Vigane SK parool."
+msgstr "Vigane parool"
 
 #: ../src/krb5ticketwatcher.cpp:525
-#, fuzzy
 msgid "Invalid principal name"
-msgstr "Vigane seadme nimi."
+msgstr "Vale põhinimi"
 
 #: ../build/ui_pwdialog.h:154
 msgid "Kerberos Password Dialog"
-msgstr ""
+msgstr "Kerberose paroolidialoog"
 
 #: ../build/ui_mainwidget.h:129
 msgid "Kerberos Ticket List"
-msgstr ""
+msgstr "Kerberosi piletite nimekiri"
 
 #: ../src/krb5ticketwatcher.cpp:1286
-#, fuzzy
 msgid "Key Encryption Type"
-msgstr "Krüptimine"
+msgstr "Võtme krüptimise tüüp"
 
 #: ../build/ui_kinitdialog.h:287
 msgid "Lifetime:"
-msgstr ""
+msgstr "Eluiga:"
 
 #. Legend: Explain ticket flag "D"
 #: ../src/krb5ticketwatcher.cpp:240
 msgid "May Postdate"
-msgstr ""
+msgstr "Võib olla hilisem kuupäev"
 
 #: ../build/ui_kinitdialog.h:276
 msgid "New Ticket"
-msgstr ""
+msgstr "Uus pilet"
 
 #: ../src/krb5ticketwatcher.cpp:1421
-#, fuzzy
 msgid "No Credential Cache found"
-msgstr "Ühtki vajalikku paika ei leitud."
+msgstr "Volituste vahemälu ei leitud"
 
 #: ../src/krb5ticketwatcher.cpp:1079
-#, fuzzy
 msgid "No credentials cache found"
-msgstr "Ühtki vajalikku paika ei leitud."
+msgstr "Volituste vahemälu ei leitud"
 
 #. Legend: Explain ticket flag "O"
 #: ../src/krb5ticketwatcher.cpp:256
-#, fuzzy
 msgid "Ok as Delegate"
-msgstr "Kustuta"
+msgstr "Ok kui delegaat"
 
 #: ../src/krb5ticketwatcher.cpp:901
-#, fuzzy
 msgid "Password change failed"
-msgstr "Parooli muutmine katkestati."
+msgstr "Parooli muutmine ebaõnnestus"
 
 #: ../build/ui_kinitdialog.h:280
 msgid "Password:"
 msgstr "Parool:"
 
 #: ../src/krb5ticketwatcher.cpp:751
-#, fuzzy, qt-format
+#, qt-format
 msgid "Please enter the Kerberos password for <b>%1</b>"
-msgstr "Sisesta jätkamiseks kasutaja \"%1\" parool."
+msgstr "Sisestage Kerberose parool <b>%1</b> jaoks"
 
 #. Legend: Explain ticket flag "d"
 #: ../src/krb5ticketwatcher.cpp:242
 msgid "Postdated"
-msgstr ""
+msgstr "Ületähtajaline"
 
 #. Legend: Explain ticket flag "A"
 #: ../src/krb5ticketwatcher.cpp:252
 msgid "Pre Auth"
-msgstr ""
+msgstr "Eelaudentimine"
 
 #: ../build/ui_kinitdialog.h:278
 msgid "Principal:"
-msgstr ""
+msgstr "Tähtsaim:"
 
 #: ../build/ui_mainwidget.h:135
-#, fuzzy
 msgid "Property"
-msgstr "Omadused"
+msgstr "Omadus"
 
 #. Legend: Explain ticket flag "p"
 #: ../src/krb5ticketwatcher.cpp:236
 msgid "Proxiable"
-msgstr ""
+msgstr "Proxiable - edastatav"
 
 #. Legend: Explain ticket flag "P"
 #: ../src/krb5ticketwatcher.cpp:238
-#, fuzzy
 msgid "Proxy"
-msgstr "Omadused"
+msgstr "Proxy"
 
 #: ../src/krb5ticketwatcher.cpp:318
 msgid "Quit krb5TicketWatcher"
-msgstr ""
+msgstr "Välju krb5TicketWatcherist"
 
 #: ../src/krb5ticketwatcher.cpp:311
 msgid "Re&store"
-msgstr ""
+msgstr "Taa&sta"
 
 #: ../build/ui_pwchangedialog.h:178
-#, fuzzy
 msgid "Reenter password:"
-msgstr "Sisesta uus parool uuesti:"
+msgstr "Sisesta parool uuesti:"
 
 #: ../src/krb5ticketwatcher.cpp:298
-#, fuzzy
 msgid "Renew the Ticket"
-msgstr "Tiitel joondatakse keskele."
+msgstr "Uuenda pilet"
 
 #: ../src/krb5ticketwatcher.cpp:1244
 msgid "Renew until"
-msgstr ""
+msgstr "Uuendage kuni"
 
 #. Legend: Explain ticket flag "R"
 #: ../src/krb5ticketwatcher.cpp:246
-#, fuzzy
 msgid "Renewable"
-msgstr "lubatud"
+msgstr "Uuendatav"
 
 #: ../build/ui_kinitdialog.h:296
 msgid "Renewable for:"
-msgstr ""
+msgstr "Uuendatav:"
 
 #: ../src/krb5ticketwatcher.cpp:313
-#, fuzzy
 msgid "Restore the Window"
-msgstr "Käivita Windows"
+msgstr "Taasta aken"
 
 #: ../src/krb5ticketwatcher.cpp:1218
-#, fuzzy
 msgid "Service principal"
-msgstr "Teenus pole saadaval"
+msgstr "Printsipal teenud"
 
 #: ../src/main.cpp:69
-#, fuzzy
 msgid "Systray"
-msgstr "Süsteem"
+msgstr "Süsteemne rada"
 
 #. Invalid password, try again.
 #: ../src/krb5ticketwatcher.cpp:705 ../src/krb5ticketwatcher.cpp:823
-#, fuzzy
 msgid "The password you entered is invalid"
-msgstr "Sinu määratud serveri tüüp on vigane:"
+msgstr "Teie sisestatud parool on vigane"
 
 #: ../src/krb5ticketwatcher.cpp:864
-#, fuzzy
 msgid "The passwords are not equal"
 msgstr "Paroolid ei kattu"
 
 #: ../src/krb5ticketwatcher.cpp:1289
-#, fuzzy
 msgid "Ticket Encryption Type"
-msgstr "Krüptimine"
+msgstr "Pileti krüptimise tüüp"
 
 #: ../build/ui_kinitdialog.h:284
 msgid "Ticket Flags"
-msgstr ""
+msgstr "Pileti- lipud"
 
 #: ../build/ui_mainwidget.h:136
 msgid "Ticket Flags Legend"
-msgstr ""
+msgstr "Piletilippude selgitused"
 
 #. message text
 #: ../src/krb5ticketwatcher.cpp:368
 msgid "Ticket cache cannot be destroyed."
-msgstr ""
+msgstr "Piletite vahemälu pole hävitatav."
 
 #: ../src/krb5ticketwatcher.cpp:1079 ../src/krb5ticketwatcher.cpp:1085
 #: ../src/krb5ticketwatcher.cpp:1106
 #, qt-format
 msgid "Ticket cache: %1:%2"
-msgstr ""
+msgstr "Piletite vahemälu: %1:%2"
 
 #: ../src/krb5ticketwatcher.cpp:1436
 #, qt-format
 msgid "Ticket expires in %1"
-msgstr ""
+msgstr "Pilet aegub %1"
 
 #: ../src/krb5ticketwatcher.cpp:1279
 msgid "Ticket flags"
-msgstr ""
+msgstr "Pileti lipud"
 
 #: ../src/krb5ticketwatcher.cpp:397 ../src/krb5ticketwatcher.cpp:425
 msgid "Ticket renewed"
-msgstr ""
+msgstr "Pilet uuendatud"
 
 #: ../src/krb5ticketwatcher.cpp:398 ../src/krb5ticketwatcher.cpp:426
 msgid "Ticket successfully renewed."
-msgstr ""
+msgstr "Pilet on edukalt uuendatud."
 
 #: ../build/ui_mainwidget.h:133
 msgid "Time Remaining"
-msgstr ""
+msgstr "Aega jäänud"
 
 #. Legend: Explain ticket flag "T"
 #: ../src/krb5ticketwatcher.cpp:254
 msgid "Transit Policy Checked"
-msgstr ""
+msgstr "Transiidi poliis kontrollitud"
 
 #: ../src/krb5ticketwatcher.cpp:1354
-#, fuzzy, qt-format
+#, qt-format
 msgid "Unknown address type %1"
-msgstr "Tundmatu lahendaja tüüp "
+msgstr "Tundmatu aadressi tüüp %1"
 
 #. principal unknown
 #: ../src/krb5ticketwatcher.cpp:583
-#, fuzzy
 msgid "Unknown principal"
-msgstr "Tundmatu säte "
+msgstr "Tundmatu printsipal"
 
 #: ../src/krb5ticketwatcher.cpp:586
-#, fuzzy
 msgid "Unknown realm"
-msgstr "Tundmatu"
+msgstr "Tundmatu valdkond"
 
 #: ../src/krb5ticketwatcher.cpp:1234
 msgid "Valid starting"
-msgstr ""
+msgstr "Kehtiv algus"
 
 #: ../build/ui_mainwidget.h:134
 msgid "Value"
@@ -473,16 +437,15 @@ msgstr "Väärtus"
 #: ../src/krb5ticketwatcher.cpp:1021 ../build/ui_kinitdialog.h:291
 #: ../build/ui_kinitdialog.h:300
 msgid "days"
-msgstr ""
+msgstr "päevi"
 
 #: ../build/ui_kinitdialog.h:288 ../build/ui_kinitdialog.h:297
-#, fuzzy
 msgid "default"
-msgstr "Vaikimisi"
+msgstr "vaikimisi"
 
 #: ../build/ui_kinitdialog.h:285
 msgid "forwardable"
-msgstr ""
+msgstr "edastatav"
 
 #. init with translations
 #: ../src/krb5ticketwatcher.cpp:157 ../src/krb5ticketwatcher.cpp:945
@@ -490,18 +453,17 @@ msgstr ""
 #: ../src/krb5ticketwatcher.cpp:1020 ../build/ui_kinitdialog.h:292
 #: ../build/ui_kinitdialog.h:301
 msgid "hours"
-msgstr ""
+msgstr "tunde"
 
 #: ../src/krb5ticketwatcher.cpp:949 ../src/krb5ticketwatcher.cpp:975
 #: ../src/krb5ticketwatcher.cpp:1004 ../src/krb5ticketwatcher.cpp:1019
 #: ../build/ui_kinitdialog.h:293 ../build/ui_kinitdialog.h:302
-#, fuzzy
 msgid "minutes"
-msgstr " minutit"
+msgstr "minuteid"
 
 #: ../build/ui_kinitdialog.h:286
 msgid "proxiable"
-msgstr ""
+msgstr "edastatav"
 
 #: ../src/krb5ticketwatcher.cpp:954 ../src/krb5ticketwatcher.cpp:980
 #: ../src/krb5ticketwatcher.cpp:1003 ../src/krb5ticketwatcher.cpp:1018
