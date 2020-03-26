@@ -9,21 +9,21 @@ msgstr ""
 "Project-Id-Version: @PACKAGE@\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-26 14:36+0200\n"
-"PO-Revision-Date: 2016-11-04 10:16+0000\n"
-"Last-Translator: Joakim Ganse <joakim.ganse@b-iq.se>\n"
-"Language-Team: Swedish <https://l10n.opensuse.org/projects/krb5-ticket-"
-"watcher/master/sv/>\n"
+"PO-Revision-Date: 2020-05-02 19:51+0000\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"Language-Team: Swedish <https://l10n.opensuse.org/projects/"
+"krb5-ticket-watcher/master/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.6\n"
+"X-Generator: Weblate 3.6.1\n"
 
 #: ../src/krb5ticketwatcher.cpp:1195
 #, qt-format
 msgid " for client %1"
-msgstr ""
+msgstr " för klient %1"
 
 #: ../build/ui_pwdialog.h:157 ../build/ui_kinitdialog.h:305
 #: ../build/ui_pwchangedialog.h:173
@@ -31,9 +31,8 @@ msgid "&Cancel"
 msgstr "Avbr&yt"
 
 #: ../src/krb5ticketwatcher.cpp:301
-#, fuzzy
 msgid "&Change Kerberos Password"
-msgstr "Ändra lösenord"
+msgstr "&Ändra Kerberos lösenord"
 
 #: ../build/ui_mainwidget.h:140
 msgid "&Close"
@@ -178,15 +177,13 @@ msgid "Do you want to destroy the ticket cache?"
 msgstr "Vill du verkligen ta bort schemat %1?"
 
 #: ../build/ui_pwchangedialog.h:177
-#, fuzzy
 msgid "Enter new password:"
-msgstr "<Ange nytt lösenord>"
+msgstr "Ange nytt lösenord:"
 
 #. title
 #: ../src/krb5ticketwatcher.cpp:366
-#, fuzzy
 msgid "Error !"
-msgstr "Fel"
+msgstr "Fel !"
 
 #: ../src/krb5ticketwatcher.cpp:1085
 #, fuzzy
@@ -230,15 +227,13 @@ msgstr "Initierar"
 
 #. Legend: Explain ticket flag "i"
 #: ../src/krb5ticketwatcher.cpp:244
-#, fuzzy
 msgid "Invalid"
-msgstr "Ogiltig KeyID."
+msgstr "Ogiltig"
 
 #. Invalid password, try again.
 #: ../src/krb5ticketwatcher.cpp:571
-#, fuzzy
 msgid "Invalid Password"
-msgstr "Ogiltigt CA-lösenord."
+msgstr "Ogiltigt lösenord"
 
 #: ../src/krb5ticketwatcher.cpp:525
 #, fuzzy
@@ -288,9 +283,8 @@ msgid "Ok as Delegate"
 msgstr "Ta bort"
 
 #: ../src/krb5ticketwatcher.cpp:901
-#, fuzzy
 msgid "Password change failed"
-msgstr "Lösenordsbyte avbröts."
+msgstr "Lösenordsbyte misslyckades"
 
 #: ../build/ui_kinitdialog.h:280
 msgid "Password:"
@@ -341,9 +335,8 @@ msgid "Re&store"
 msgstr ""
 
 #: ../build/ui_pwchangedialog.h:178
-#, fuzzy
 msgid "Reenter password:"
-msgstr "Ange nytt lösenord igen: "
+msgstr "Ange nytt lösenord:"
 
 #: ../src/krb5ticketwatcher.cpp:298
 msgid "Renew the Ticket"
@@ -380,9 +373,8 @@ msgstr "System"
 
 #. Invalid password, try again.
 #: ../src/krb5ticketwatcher.cpp:705 ../src/krb5ticketwatcher.cpp:823
-#, fuzzy
 msgid "The password you entered is invalid"
-msgstr "Typen du angav för servern är ogiltig:"
+msgstr "Lösenordet du angav är ogiltigt"
 
 #: ../src/krb5ticketwatcher.cpp:864
 #, fuzzy
@@ -442,9 +434,9 @@ msgid "Transit Policy Checked"
 msgstr "Överföringspolicy kontrollerad"
 
 #: ../src/krb5ticketwatcher.cpp:1354
-#, fuzzy, qt-format
+#, qt-format
 msgid "Unknown address type %1"
-msgstr "Okänd resurstyp: %s"
+msgstr "Okänd adresstyp: %1"
 
 #. principal unknown
 #: ../src/krb5ticketwatcher.cpp:583
@@ -474,9 +466,8 @@ msgid "days"
 msgstr "dagar"
 
 #: ../build/ui_kinitdialog.h:288 ../build/ui_kinitdialog.h:297
-#, fuzzy
 msgid "default"
-msgstr "Standard"
+msgstr "standard"
 
 #: ../build/ui_kinitdialog.h:285
 msgid "forwardable"
@@ -487,16 +478,14 @@ msgstr "möjlig att vidarebefordra"
 #: ../src/krb5ticketwatcher.cpp:971 ../src/krb5ticketwatcher.cpp:1005
 #: ../src/krb5ticketwatcher.cpp:1020 ../build/ui_kinitdialog.h:292
 #: ../build/ui_kinitdialog.h:301
-#, fuzzy
 msgid "hours"
-msgstr " Timmar"
+msgstr "timmar"
 
 #: ../src/krb5ticketwatcher.cpp:949 ../src/krb5ticketwatcher.cpp:975
 #: ../src/krb5ticketwatcher.cpp:1004 ../src/krb5ticketwatcher.cpp:1019
 #: ../build/ui_kinitdialog.h:293 ../build/ui_kinitdialog.h:302
-#, fuzzy
 msgid "minutes"
-msgstr " minuter"
+msgstr "minuter"
 
 #: ../build/ui_kinitdialog.h:286
 msgid "proxiable"
