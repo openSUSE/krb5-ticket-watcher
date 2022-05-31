@@ -9,8 +9,8 @@ msgstr ""
 "Project-Id-Version: @PACKAGE@\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-26 14:36+0200\n"
-"PO-Revision-Date: 2020-05-02 19:51+0000\n"
-"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
+"PO-Revision-Date: 2022-05-31 18:13+0000\n"
+"Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/"
 "krb5-ticket-watcher/master/sv/>\n"
 "Language: sv\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.6.1\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #: ../src/krb5ticketwatcher.cpp:1195
 #, qt-format
@@ -40,7 +40,7 @@ msgstr "&Stäng"
 
 #: ../src/krb5ticketwatcher.cpp:306
 msgid "&Destroy Ticket"
-msgstr ""
+msgstr "&Förstör biljett"
 
 #: ../build/ui_kinitdialog.h:281
 msgid "&Details..."
@@ -154,7 +154,7 @@ msgstr "Dag(ar)"
 
 #: ../build/ui_mainwidget.h:130
 msgid "Default credential cache"
-msgstr ""
+msgstr "Standardcache för autentiseringsuppgifter"
 
 #: ../src/krb5ticketwatcher.cpp:1110
 #, qt-format
@@ -172,9 +172,8 @@ msgstr "Ta bort biljetten"
 
 #. message text
 #: ../src/krb5ticketwatcher.cpp:358
-#, fuzzy
 msgid "Do you want to destroy the ticket cache?"
-msgstr "Vill du verkligen ta bort schemat %1?"
+msgstr "Vill du förstöra biljettcachen?"
 
 #: ../build/ui_pwchangedialog.h:177
 msgid "Enter new password:"
@@ -186,9 +185,8 @@ msgid "Error !"
 msgstr "Fel !"
 
 #: ../src/krb5ticketwatcher.cpp:1085
-#, fuzzy
 msgid "Error while setting cache flags"
-msgstr "Ett fel uppstod när begäran skulle tolkas."
+msgstr "Fel vid inställning av cache-flaggor"
 
 #: ../src/krb5ticketwatcher.cpp:1238
 msgid "Expires"
@@ -196,9 +194,8 @@ msgstr "Förfaller"
 
 #. kdc unreachable, return
 #: ../src/krb5ticketwatcher.cpp:716 ../src/krb5ticketwatcher.cpp:828
-#, fuzzy
 msgid "Failure"
-msgstr "Misslyckades"
+msgstr "Fel"
 
 #. Legend: Explain ticket flag "F"
 #: ../src/krb5ticketwatcher.cpp:232
@@ -249,9 +246,8 @@ msgid "Kerberos Ticket List"
 msgstr "Kerberos biljettlista"
 
 #: ../src/krb5ticketwatcher.cpp:1286
-#, fuzzy
 msgid "Key Encryption Type"
-msgstr "Kryptering"
+msgstr "Nyckelkrypteringstyp"
 
 #: ../build/ui_kinitdialog.h:287
 msgid "Lifetime:"
@@ -269,7 +265,7 @@ msgstr "Ny biljett"
 #: ../src/krb5ticketwatcher.cpp:1421
 #, fuzzy
 msgid "No Credential Cache found"
-msgstr "Inga programfixar som behövs hittade."
+msgstr "Ingen behörighetscache hittades"
 
 #: ../src/krb5ticketwatcher.cpp:1079
 #, fuzzy
@@ -291,9 +287,9 @@ msgid "Password:"
 msgstr "Lösenord:"
 
 #: ../src/krb5ticketwatcher.cpp:751
-#, fuzzy, qt-format
+#, qt-format
 msgid "Please enter the Kerberos password for <b>%1</b>"
-msgstr "Ange lösenordet för \"%1\" för att fortsätta."
+msgstr "Ange Kerberos-lösenordet för <b>%1</b>"
 
 #. Legend: Explain ticket flag "d"
 #: ../src/krb5ticketwatcher.cpp:242
@@ -322,9 +318,8 @@ msgstr ""
 
 #. Legend: Explain ticket flag "P"
 #: ../src/krb5ticketwatcher.cpp:238
-#, fuzzy
 msgid "Proxy"
-msgstr "Egenskaper"
+msgstr "Proxy"
 
 #: ../src/krb5ticketwatcher.cpp:318
 msgid "Quit krb5TicketWatcher"
@@ -332,7 +327,7 @@ msgstr "Avsluta krb5TicketWatcher"
 
 #: ../src/krb5ticketwatcher.cpp:311
 msgid "Re&store"
-msgstr ""
+msgstr "Åt%erställ"
 
 #: ../build/ui_pwchangedialog.h:178
 msgid "Reenter password:"
@@ -348,18 +343,16 @@ msgstr "Förnya tills"
 
 #. Legend: Explain ticket flag "R"
 #: ../src/krb5ticketwatcher.cpp:246
-#, fuzzy
 msgid "Renewable"
-msgstr "aktiverad"
+msgstr "Förnybar"
 
 #: ../build/ui_kinitdialog.h:296
 msgid "Renewable for:"
 msgstr "Förnybar för:"
 
 #: ../src/krb5ticketwatcher.cpp:313
-#, fuzzy
 msgid "Restore the Window"
-msgstr "Starta Windows"
+msgstr "Återställ fönstret"
 
 #: ../src/krb5ticketwatcher.cpp:1218
 #, fuzzy
@@ -377,14 +370,12 @@ msgid "The password you entered is invalid"
 msgstr "Lösenordet du angav är ogiltigt"
 
 #: ../src/krb5ticketwatcher.cpp:864
-#, fuzzy
 msgid "The passwords are not equal"
-msgstr "Lösenorden stämmer inte överens"
+msgstr "Lösenorden är inte lika"
 
 #: ../src/krb5ticketwatcher.cpp:1289
-#, fuzzy
 msgid "Ticket Encryption Type"
-msgstr "Kryptering"
+msgstr "Biljettkrypteringstyp"
 
 #: ../build/ui_kinitdialog.h:284
 msgid "Ticket Flags"
@@ -396,9 +387,8 @@ msgstr "Historik med biljettflaggor"
 
 #. message text
 #: ../src/krb5ticketwatcher.cpp:368
-#, fuzzy
 msgid "Ticket cache cannot be destroyed."
-msgstr "det går inte att ta bort den aktiva profilen"
+msgstr "Biljettcachen kan inte förstöras."
 
 #: ../src/krb5ticketwatcher.cpp:1079 ../src/krb5ticketwatcher.cpp:1085
 #: ../src/krb5ticketwatcher.cpp:1106
@@ -450,9 +440,8 @@ msgid "Unknown realm"
 msgstr "Okänd"
 
 #: ../src/krb5ticketwatcher.cpp:1234
-#, fuzzy
 msgid "Valid starting"
-msgstr "Godkänd att starta"
+msgstr "Giltig start"
 
 #: ../build/ui_mainwidget.h:134
 msgid "Value"
