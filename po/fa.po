@@ -5,16 +5,16 @@ msgstr ""
 "Project-Id-Version: opensuse-i 18n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-26 14:36+0200\n"
-"PO-Revision-Date: 2016-11-01 07:10+0000\n"
-"Last-Translator: hayyan rostami <hayyan71@yahoo.com>\n"
-"Language-Team: Persian <https://l10n.opensuse.org/projects/krb5-ticket-"
-"watcher/master/fa/>\n"
+"PO-Revision-Date: 2023-03-04 16:14+0000\n"
+"Last-Translator: Mohammad Rezaei Seresht <m.networking@gmail.com>\n"
+"Language-Team: Persian <https://l10n.opensuse.org/projects/"
+"krb5-ticket-watcher/master/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.6\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #: ../src/krb5ticketwatcher.cpp:1195
 #, qt-format
@@ -114,138 +114,138 @@ msgstr "تغییر رمز عبور Kerberos"
 #: ../src/krb5ticketwatcher.cpp:860
 #, qt-format
 msgid "Change the password for principal <b>%1</b>"
-msgstr ""
+msgstr "رمز عبور اصلی <b>%1</b> را تغییر دهید"
 
 #: ../src/krb5ticketwatcher.cpp:293
 msgid "Create a new Ticket"
-msgstr ""
+msgstr "ایجاد یک تیکت جدید"
 
 #: ../src/krb5ticketwatcher.cpp:302
 msgid "Ctrl+C"
-msgstr ""
+msgstr "Ctrl+C"
 
 #: ../src/krb5ticketwatcher.cpp:307
 msgid "Ctrl+D"
-msgstr ""
+msgstr "Ctrl+D"
 
 #: ../src/krb5ticketwatcher.cpp:292
 msgid "Ctrl+N"
-msgstr ""
+msgstr "Ctrl+N"
 
 #: ../src/krb5ticketwatcher.cpp:317
 msgid "Ctrl+Q"
-msgstr ""
+msgstr "Ctrl+Q"
 
 #: ../src/krb5ticketwatcher.cpp:297
 msgid "Ctrl+R"
-msgstr ""
+msgstr "Ctrl+R"
 
 #: ../src/krb5ticketwatcher.cpp:312
 msgid "Ctrl+S"
-msgstr ""
+msgstr "Ctrl+S"
 
 #: ../src/krb5ticketwatcher.cpp:1404
 msgid "Day(s)"
-msgstr ""
+msgstr "روز(ها)"
 
 #: ../build/ui_mainwidget.h:130
 msgid "Default credential cache"
-msgstr ""
+msgstr "حافظه پنهان اعتبار پیش فرض"
 
 #: ../src/krb5ticketwatcher.cpp:1110
 #, qt-format
 msgid "Default principal: %3"
-msgstr ""
+msgstr "پیش‌فرض اصلی: %3"
 
 #. title
 #: ../src/krb5ticketwatcher.cpp:356
 msgid "Destroy Kerberos Ticket Cache?"
-msgstr ""
+msgstr "کش تیکت Kerberos را از بین ببرید؟"
 
 #: ../src/krb5ticketwatcher.cpp:308
 msgid "Destroy the Ticket"
-msgstr ""
+msgstr "ازبین بردن تیکت"
 
 #. message text
 #: ../src/krb5ticketwatcher.cpp:358
 msgid "Do you want to destroy the ticket cache?"
-msgstr ""
+msgstr "آیا می‌خواهید حافظه پنهان تیکت را از‌بین ببرید؟"
 
 #: ../build/ui_pwchangedialog.h:177
 msgid "Enter new password:"
-msgstr ""
+msgstr "گذرواژه جدیدی وارد کنید:"
 
 #. title
 #: ../src/krb5ticketwatcher.cpp:366
 msgid "Error !"
-msgstr ""
+msgstr "خطا !"
 
 #: ../src/krb5ticketwatcher.cpp:1085
 msgid "Error while setting cache flags"
-msgstr ""
+msgstr "خطا هنگام تنظیم فلگ های حافظه پنهان"
 
 #: ../src/krb5ticketwatcher.cpp:1238
 msgid "Expires"
-msgstr ""
+msgstr "منقضی"
 
 #. kdc unreachable, return
 #: ../src/krb5ticketwatcher.cpp:716 ../src/krb5ticketwatcher.cpp:828
 msgid "Failure"
-msgstr ""
+msgstr "شکت"
 
 #. Legend: Explain ticket flag "F"
 #: ../src/krb5ticketwatcher.cpp:232
 msgid "Forwardable"
-msgstr ""
+msgstr "قابل فوروارد کردن"
 
 #. Legend: Explain ticket flag "f"
 #: ../src/krb5ticketwatcher.cpp:234
 msgid "Forwarded"
-msgstr ""
+msgstr "فوروارد شده"
 
 #. Legend: Explain ticket flag "H"
 #: ../src/krb5ticketwatcher.cpp:250
 msgid "HW Auth"
-msgstr ""
+msgstr "HW Auth"
 
 #: ../src/main.cpp:70
 msgid "I couldn't detect any system tray on this system."
-msgstr ""
+msgstr "من تنوانستم هیچ system tray ای را در سیستم تشخیص دهم."
 
 #. Legend: Explain ticket flag "I"
 #: ../src/krb5ticketwatcher.cpp:248
 msgid "Initial"
-msgstr ""
+msgstr "اولیه"
 
 #. Legend: Explain ticket flag "i"
 #: ../src/krb5ticketwatcher.cpp:244
 msgid "Invalid"
-msgstr ""
+msgstr "نامعتبر"
 
 #. Invalid password, try again.
 #: ../src/krb5ticketwatcher.cpp:571
 msgid "Invalid Password"
-msgstr ""
+msgstr "گذرواژه نامعتبر"
 
 #: ../src/krb5ticketwatcher.cpp:525
 msgid "Invalid principal name"
-msgstr ""
+msgstr "نام اصلی نامعتبر"
 
 #: ../build/ui_pwdialog.h:154
 msgid "Kerberos Password Dialog"
-msgstr ""
+msgstr "گفتگوی رمز عبور Kerberos"
 
 #: ../build/ui_mainwidget.h:129
 msgid "Kerberos Ticket List"
-msgstr ""
+msgstr "لیست تیکت Kerberos"
 
 #: ../src/krb5ticketwatcher.cpp:1286
 msgid "Key Encryption Type"
-msgstr ""
+msgstr "نوع رمزنگاری کلید"
 
 #: ../build/ui_kinitdialog.h:287
 msgid "Lifetime:"
-msgstr ""
+msgstr "مادامالعمر:"
 
 #. Legend: Explain ticket flag "D"
 #: ../src/krb5ticketwatcher.cpp:240
@@ -316,7 +316,7 @@ msgstr ""
 
 #: ../src/krb5ticketwatcher.cpp:311
 msgid "Re&store"
-msgstr ""
+msgstr "بازگشت"
 
 #: ../build/ui_pwchangedialog.h:178
 msgid "Reenter password:"
@@ -354,11 +354,11 @@ msgstr ""
 #. Invalid password, try again.
 #: ../src/krb5ticketwatcher.cpp:705 ../src/krb5ticketwatcher.cpp:823
 msgid "The password you entered is invalid"
-msgstr ""
+msgstr "گذرواژه وارد شده اشتباه است"
 
 #: ../src/krb5ticketwatcher.cpp:864
 msgid "The passwords are not equal"
-msgstr ""
+msgstr "گذزواژه‌ها یکسان نیستند"
 
 #: ../src/krb5ticketwatcher.cpp:1289
 msgid "Ticket Encryption Type"
@@ -429,7 +429,7 @@ msgstr ""
 
 #: ../build/ui_mainwidget.h:134
 msgid "Value"
-msgstr ""
+msgstr "مقدار"
 
 #: ../src/krb5ticketwatcher.cpp:158 ../src/krb5ticketwatcher.cpp:941
 #: ../src/krb5ticketwatcher.cpp:967 ../src/krb5ticketwatcher.cpp:1006
