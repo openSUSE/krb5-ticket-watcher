@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: @PACKAGE@\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-26 14:36+0200\n"
-"PO-Revision-Date: 2022-05-31 18:13+0000\n"
+"PO-Revision-Date: 2023-12-04 16:38+0000\n"
 "Last-Translator: Luna  Jernberg <bittin@opensuse.org>\n"
 "Language-Team: Swedish <https://l10n.opensuse.org/projects/"
 "krb5-ticket-watcher/master/sv/>\n"
@@ -116,9 +116,9 @@ msgid "Change the Kerberos Password"
 msgstr "Ändra kerberoslösenord"
 
 #: ../src/krb5ticketwatcher.cpp:860
-#, fuzzy, qt-format
+#, qt-format
 msgid "Change the password for principal <b>%1</b>"
-msgstr "Ändra lösenordet för <b>%1</b>"
+msgstr "Ändra lösenordet för huvudperson <b>%1</b>"
 
 #: ../src/krb5ticketwatcher.cpp:293
 msgid "Create a new Ticket"
@@ -159,7 +159,7 @@ msgstr "Standardcache för autentiseringsuppgifter"
 #: ../src/krb5ticketwatcher.cpp:1110
 #, qt-format
 msgid "Default principal: %3"
-msgstr ""
+msgstr "Standard huvudperson: %3"
 
 #. title
 #: ../src/krb5ticketwatcher.cpp:356
@@ -210,7 +210,7 @@ msgstr "Vidarebefordrat"
 #. Legend: Explain ticket flag "H"
 #: ../src/krb5ticketwatcher.cpp:250
 msgid "HW Auth"
-msgstr ""
+msgstr "HW Autentisering"
 
 #: ../src/main.cpp:70
 msgid "I couldn't detect any system tray on this system."
@@ -218,9 +218,8 @@ msgstr "Jag kunde inte upptäcka något systemfält på detta system."
 
 #. Legend: Explain ticket flag "I"
 #: ../src/krb5ticketwatcher.cpp:248
-#, fuzzy
 msgid "Initial"
-msgstr "Initierar"
+msgstr "Inledande"
 
 #. Legend: Explain ticket flag "i"
 #: ../src/krb5ticketwatcher.cpp:244
@@ -233,9 +232,8 @@ msgid "Invalid Password"
 msgstr "Ogiltigt lösenord"
 
 #: ../src/krb5ticketwatcher.cpp:525
-#, fuzzy
 msgid "Invalid principal name"
-msgstr "Enhetsnamnet är ogiltigt."
+msgstr "Ogiltigt huvudnamn"
 
 #: ../build/ui_pwdialog.h:154
 msgid "Kerberos Password Dialog"
@@ -256,27 +254,24 @@ msgstr "Livstid:"
 #. Legend: Explain ticket flag "D"
 #: ../src/krb5ticketwatcher.cpp:240
 msgid "May Postdate"
-msgstr ""
+msgstr "maj Postdatum"
 
 #: ../build/ui_kinitdialog.h:276
 msgid "New Ticket"
 msgstr "Ny biljett"
 
 #: ../src/krb5ticketwatcher.cpp:1421
-#, fuzzy
 msgid "No Credential Cache found"
 msgstr "Ingen behörighetscache hittades"
 
 #: ../src/krb5ticketwatcher.cpp:1079
-#, fuzzy
 msgid "No credentials cache found"
-msgstr "Inga programfixar som behövs hittade."
+msgstr "Ingen autentiseringscache hittades"
 
 #. Legend: Explain ticket flag "O"
 #: ../src/krb5ticketwatcher.cpp:256
-#, fuzzy
 msgid "Ok as Delegate"
-msgstr "Ta bort"
+msgstr "Ok som delegat"
 
 #: ../src/krb5ticketwatcher.cpp:901
 msgid "Password change failed"
@@ -293,28 +288,26 @@ msgstr "Ange Kerberos-lösenordet för <b>%1</b>"
 
 #. Legend: Explain ticket flag "d"
 #: ../src/krb5ticketwatcher.cpp:242
-#, fuzzy
 msgid "Postdated"
-msgstr "Efterdaterad"
+msgstr "Postdaterad"
 
 #. Legend: Explain ticket flag "A"
 #: ../src/krb5ticketwatcher.cpp:252
 msgid "Pre Auth"
-msgstr ""
+msgstr "Förautentisering"
 
 #: ../build/ui_kinitdialog.h:278
 msgid "Principal:"
-msgstr ""
+msgstr "Huvudman:"
 
 #: ../build/ui_mainwidget.h:135
-#, fuzzy
 msgid "Property"
-msgstr "Egenskaper"
+msgstr "Egendom"
 
 #. Legend: Explain ticket flag "p"
 #: ../src/krb5ticketwatcher.cpp:236
 msgid "Proxiable"
-msgstr ""
+msgstr "Närhetsbar"
 
 #. Legend: Explain ticket flag "P"
 #: ../src/krb5ticketwatcher.cpp:238
@@ -355,14 +348,12 @@ msgid "Restore the Window"
 msgstr "Återställ fönstret"
 
 #: ../src/krb5ticketwatcher.cpp:1218
-#, fuzzy
 msgid "Service principal"
-msgstr "Tjänst otillgänglig"
+msgstr "Servicehuvudman"
 
 #: ../src/main.cpp:69
-#, fuzzy
 msgid "Systray"
-msgstr "System"
+msgstr "Systray"
 
 #. Invalid password, try again.
 #: ../src/krb5ticketwatcher.cpp:705 ../src/krb5ticketwatcher.cpp:823
@@ -419,7 +410,6 @@ msgstr "Tid kvar"
 
 #. Legend: Explain ticket flag "T"
 #: ../src/krb5ticketwatcher.cpp:254
-#, fuzzy
 msgid "Transit Policy Checked"
 msgstr "Överföringspolicy kontrollerad"
 
@@ -430,14 +420,12 @@ msgstr "Okänd adresstyp: %1"
 
 #. principal unknown
 #: ../src/krb5ticketwatcher.cpp:583
-#, fuzzy
 msgid "Unknown principal"
-msgstr "Okänt alternativ "
+msgstr "Okänd huvudman"
 
 #: ../src/krb5ticketwatcher.cpp:586
-#, fuzzy
 msgid "Unknown realm"
-msgstr "Okänd"
+msgstr "Okänt rike"
 
 #: ../src/krb5ticketwatcher.cpp:1234
 msgid "Valid starting"
@@ -478,7 +466,7 @@ msgstr "minuter"
 
 #: ../build/ui_kinitdialog.h:286
 msgid "proxiable"
-msgstr ""
+msgstr "närliggande"
 
 #: ../src/krb5ticketwatcher.cpp:954 ../src/krb5ticketwatcher.cpp:980
 #: ../src/krb5ticketwatcher.cpp:1003 ../src/krb5ticketwatcher.cpp:1018
