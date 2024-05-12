@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: opensuse-i 18n\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-26 14:36+0200\n"
-"PO-Revision-Date: 2023-03-04 16:14+0000\n"
+"PO-Revision-Date: 2024-05-12 11:43+0000\n"
 "Last-Translator: Mohammad Rezaei Seresht <m.networking@gmail.com>\n"
 "Language-Team: Persian <https://l10n.opensuse.org/projects/"
 "krb5-ticket-watcher/master/fa/>\n"
@@ -210,7 +210,7 @@ msgstr "HW Auth"
 
 #: ../src/main.cpp:70
 msgid "I couldn't detect any system tray on this system."
-msgstr "من تنوانستم هیچ system tray ای را در سیستم تشخیص دهم."
+msgstr "من نتوانستم هیچ system tray ای را در سیستم تشخیص دهم."
 
 #. Legend: Explain ticket flag "I"
 #: ../src/krb5ticketwatcher.cpp:248
