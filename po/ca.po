@@ -3,16 +3,16 @@ msgstr ""
 "Project-Id-Version: @PACKAGE@\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-26 14:36+0200\n"
-"PO-Revision-Date: 2018-08-29 20:01+0000\n"
+"PO-Revision-Date: 2024-05-27 12:46+0000\n"
 "Last-Translator: David Medina <medipas@gmail.com>\n"
-"Language-Team: Catalan <https://l10n.opensuse.org/projects/krb5-ticket-"
-"watcher/master/ca/>\n"
+"Language-Team: Catalan <https://l10n.opensuse.org/projects/"
+"krb5-ticket-watcher/master/ca/>\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 2.18\n"
+"X-Generator: Weblate 5.5.5\n"
 
 #: ../src/krb5ticketwatcher.cpp:1195
 #, qt-format
@@ -258,11 +258,11 @@ msgstr "Tiquet nou"
 
 #: ../src/krb5ticketwatcher.cpp:1421
 msgid "No Credential Cache found"
-msgstr "No s'ha trobat la cau de credencials"
+msgstr "No s'ha trobat la cau de credencials."
 
 #: ../src/krb5ticketwatcher.cpp:1079
 msgid "No credentials cache found"
-msgstr "No s'ha trobat la cau de credencials"
+msgstr "No s'ha trobat la cau de credencials."
 
 #. Legend: Explain ticket flag "O"
 #: ../src/krb5ticketwatcher.cpp:256
