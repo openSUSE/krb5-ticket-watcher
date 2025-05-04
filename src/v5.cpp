@@ -126,7 +126,6 @@ v5::renewCredential(krb5_context kcontext, krb5_principal kprincipal, krb5_times
 	krb5_error_code         retval;
 	krb5_creds              my_creds;
 	krb5_ccache             ccache;
-	krb5_get_init_creds_opt opts;
 	
 	qDebug("renew called");
 
@@ -137,11 +136,9 @@ v5::renewCredential(krb5_context kcontext, krb5_principal kprincipal, krb5_times
 		return KRB5KDC_ERR_C_PRINCIPAL_UNKNOWN;
 	}
 
-	krb5_get_init_creds_opt_init(&opts);
 	if (getTgtFromCcache (kcontext, &my_creds))
 	{
 		qDebug("got tgt from ccache");
-		//setOptionsUsingCreds(kcontext, &my_creds, &opts);
 		*tgtEndtime = my_creds.times.endtime;
 		krb5_free_cred_contents(kcontext, &my_creds);
 	}
