@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: @PACKAGE@\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-07-26 14:36+0200\n"
-"PO-Revision-Date: 2016-07-28 18:28+0000\n"
+"PO-Revision-Date: 2026-02-26 21:04+0000\n"
 "Last-Translator: Ferdinand Galko <galko.ferdinand@gmail.com>\n"
 "Language-Team: Slovak <https://l10n.opensuse.org/projects/krb5-ticket-"
 "watcher/master/sk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 2.6\n"
+"X-Generator: Weblate 5.16.1\n"
 "X-Poedit-Language: Slovak\n"
 "X-Poedit-Country: SLOVAKIA\n"
 
@@ -55,7 +55,7 @@ msgstr "&Nový tiket"
 #: ../build/ui_pwdialog.h:155 ../build/ui_kinitdialog.h:307
 #: ../build/ui_pwchangedialog.h:175
 msgid "&Ok"
-msgstr "&OK"
+msgstr "&Ok"
 
 #: ../src/krb5ticketwatcher.cpp:316
 msgid "&Quit"
